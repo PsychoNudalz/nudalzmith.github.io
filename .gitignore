@@ -13,7 +13,8 @@
 !ProjectInfo/*
 !Scripts/*
 !scss/*
-
+!img/Website/*
+!img/Website/*/*
 
 # post ignore
 #node_modules/*
