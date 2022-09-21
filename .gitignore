@@ -12,6 +12,7 @@
 !*.css
 !ProjectInfo/*
 !Scripts/*
+!scss/*
 
 
 # post ignore

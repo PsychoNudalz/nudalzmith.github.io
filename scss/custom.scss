@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+$theme-colors: (
+        "dark":#111111,
+        "primary":#222222,
+        "secondary":#505050,
+        "orange":#FF6D13,
+        "dark-orange":#be4a00
+);
+
+
+$itch: (#dd4a4a);
+$primary: (#222222);
+$dark-orange: (#be4a00);
+$orange: (#FF6D13);
+$light-orange: (#ff9741);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Nanum Gothic Coding', monospace;
+  color: #000000;
+}
+
+p, {
+  color: $light;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $orange;
+  text-shadow: 0px 0px 20px $orange;
+
+}
+
+b {
+  color: $orange;
+  text-shadow: 0rem 0rem 1rem $dark-orange;
+}
+
+.nav-link {
+  font-family: 'DotGothic16', monospace;
+  font-size: 1.2em !important;
+  color: $orange;
+}
+
+.nav-link:hover {
+  text-shadow: 0px 0px 20px $dark-orange;
+  color: $light-orange;
+  font-size: 1.2em !important;
+  font-weight: bold;
+
+
+}
+
+.dropdown-menu a {
+  font-family: 'DotGothic16', monospace;
+
+  color: $orange;
+}
+
+
+.dropdown-menu a:hover {
+
+  color: $primary;
+  background-color: $orange;
+  font-weight: bold;
+}
+
+hr {
+  background-color: $orange;
+
+}
+
+.carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+  color: #ffffff;
+  text-shadow: 0px 0px 20px $dark-orange;
+  padding-bottom: 1rem;
+
+}
+
+.btn-outline-orange:hover {
+  background-color: $orange;
+  color: white;
+}
+
+.btn-outline-itch {
+  color: $itch;
+  border-color: $itch;
+}
+
+.btn-outline-itch:hover {
+  background-color: $itch;
+  color: white;
+}
+
+.education-title h1 {
+  font-size: large;
+}
+
+.education-title h2 {
+  font-size: medium;
+
+}
+
+.education-scores h2 {
+  padding-top: -20px;
+}
+
+.education-entry h2 {
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.education-entry li {
+  color: $orange;
+  text-shadow: 0px 0px 20px $dark-orange;
+
+}
+
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-brand {
+  height: 20%;
+  width: 20%;
+}
+
+.navbar-toggler {
+  background-color: $orange !important;
+
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  //background-color: $orange !important;
+
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0 !important;
+}
+
+
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#fixed {
+  background-image: url('../img/Export1.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.carousel-caption h1 {
+  font-size: 400%;
+  text-transform: uppercase;
+
+
+}
+
+.carousel-caption h2 {
+  font-size: 200%;
+  font-weight: 500;
+
+}
+
+.carousel-caption h3 {
+  font-size: 150%;
+  font-weight: 500;
+
+}
+
+
+.display-2 {
+
+}
+
+
+.about-me img {
+  width: 100%;
+  height: auto;
+}
+
+.about-me {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.latest-project img {
+  width: 100%;
+  height: auto;
+}
+
+.latest-project-text {
+  width: 100%;
+
+  height: auto;
+}
+
+.contact a {
+  color: $orange;
+}
+
+.contact a:hover {
+  color: $orange;
+  text-shadow: 0px 0px 20px $dark-orange;
+}
+
+
+.social a:hover, .social-icons a:hover {
+  text-shadow: 0px 0px 20px $dark-orange;
+  //text-underline-mode: false;
+  text-underline: $primary;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.fa {
+  font-family: FontAwesome;
+
+
+}
+
+
+.fa-github {
+  color: #2a2a2a;
+  content: "\f09b";
+}
+
+.fa-itch-io {
+  content: url('https://api.iconify.design/fa-brands/itch-io.svg?color=%23dd4a4a');
+
+  color: $itch;
+}
+
+.fa-itch-io:hover {
+  content: url('https://api.iconify.design/fa-brands/itch-io.svg?color=white');
+}
+
+
+.social-icons {
+  //font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  color: $orange;
+}
+
+.footer h5 {
+  color: $dark-orange;
+  font-size: small;
+}
+
+.project-entry-zone ul {
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.project-entry {
+  border: 2px solid $orange !important;
+  border-radius: 16px;
+  font-size: 1rem;
+  padding: .5rem;
+  margin: .5rem;
+  box-shadow: 0px 0px 15px $dark-orange;
+
+}
+
+.project-entry img {
+  width: 100%;
+  height: auto;
+  border-color: $orange;
+  border-style: inset;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px $dark-orange;
+  margin-bottom: .5rem;
+
+
+}
+
+.project-entry h1, .project-entry h2, .project-entry h3 {
+  width: 100%;
+}
+
+.project-entry hr {
+  width: 100%;
+}
+
+.project-entry a {
+  color: $orange;
+  font-size: x-large;
+  text-shadow: 0px 0px 20px $orange;
+
+}
+
+.project-entry a:hover {
+  text-decoration: none;
+  color: $light-orange;
+  text-shadow: 0px 0px 30px $orange;
+
+}
+
+.project-entry h1 {
+  font-size: x-large;
+  text-shadow: 0px 0px 40px $orange;
+
+}
+
+.project-entry h2 {
+  font-size: large;
+  text-shadow: 0px 0px 20px $orange;
+
+}
+
+.project-entry h3 {
+  font-size: large;
+  text-shadow: 0px 0px 5px $dark-orange;
+}
+
+
+.project-entry p {
+  font-size: large;
+}
+
+.project-deep-dive p {
+
+  text-align: justify !important;
+  text-align-last: center !important;
+}
+
+.project-deep-dive-summary p {
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.team-members ul {
+
+  list-style-type: none;
+}
+
+.team-members li {
+
+  padding: 1rem;
+}
+
+.team-members a {
+  color: $orange;
+  text-shadow: 0px 0px 20px $orange;
+
+}
+
+.team-members a:hover {
+  text-decoration: none;
+  color: $light-orange;
+  text-shadow: 0px 0px 30px $orange;
+
+}
+
+.project-deep-dive-carousel {
+  width: 70%;
+  height: auto;
+  border-color: $orange;
+  border-style: inset;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px $dark-orange;
+  margin-bottom: .5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.project-deep-dive-progress {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project-deep-dive-progress h1, .project-deep-dive-progress h2, .project-deep-dive-progress h3 {
+  text-transform: uppercase;
+}
+
+
+.project-deep-dive-progress hr {
+  margin-left: -10%;
+  margin-right: -10%;
+}
+
+.project-deep-dive-progress h1, .project-deep-dive-progress h2 {
+  margin-bottom: 20px;
+}
+
+.project-deep-dive-progress p {
+  vertical-align: center;
+}
+
+.project-deep-dive-progress img {
+  width: 70%;
+  height: auto;
+  border-color: $orange;
+  border-style: inset;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px $dark-orange;
+  margin-bottom: .5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.project-deep-dive-progress ol {
+  color: $orange;
+  text-shadow: 0px 0px 20px $orange;
+  margin-bottom: 2rem;
+}
+.project-deep-dive-progress li {
+  color: $orange;
+  text-shadow: 0px 0px 20px $orange;
+  margin-bottom: .1rem;
+}
+
+
+.project-deep-dive-progress-iframe {
+
+  border-color: $orange;
+  border-style: inset;
+  border-width: 2px;
+  box-shadow: 0px 0px 5px $dark-orange;
+  display: block;
+
+  margin-bottom: 1rem;
+}
+
+.project-deep-dive-progress-section h3 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.project-deep-dive-progress-section {
+  padding-left: -10%;
+  padding-right: -10%;
+}
+
+.project-deep-dive-progress-section img {
+  width: 100%;
+  height: auto;
+}
+
+.project-deep-dive-progress-section ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+
+}
+
+.project-deep-dive-progress-section li {
+  padding: 2rem;
+
+}
+
+.project-deep-dive-progress-section-entry {
+  list-style-type: none;
+  border: 2px solid $orange !important;
+  border-radius: 16px;
+  padding: 1rem;
+
+  box-shadow: 0px 0px 15px $dark-orange;
+}
+
+.project-deep-dive-progress-section-entry img {
+  margin-bottom: 2rem;
+}
+
+//3d model stuff
+
+.model-viewer {
+  border: 1px solid $orange !important;
+  border-radius: 16px;
+}
+
+.model-viewer x3d {
+  border: 1px solid $orange !important;
+  border-radius: 16px;
+  width: 100%;
+  height: 100%;
+}
+
+.camera-btns {
+  /* background-color: rgba(0, 0, 255, 0.3);  */
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.camera-btns > p {
+  font-size: 15px;
+  color: $red;
+  padding-left: 0px;
+  font-weight: 900;
+}
+
+.camera-font {
+  font-weight: 400;
+  color: $white;
+}
+
+.camera-font:hover {
+  font-weight: 700;
+  color: rgb(3, 3, 3);
+}
+
+
+.btn-responsive {
+  padding: 6px 10px;
+  font-size: 45%;
+  line-height: 1.2;
+  white-space: normal !important;
+}
+
+
+@media (min-width: 576px) {
+  .btn-responsive {
+    font-size: 60%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .btn-responsive {
+    font-size: 90%;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .btn-responsive {
+    font-size: 120%;
+  }
+  .project-deep-dive-progress-section-entry img {
+    width: 90%;
+  }
+  .project-deep-dive-progress-iframe {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .btn-responsive {
+    font-size: 150%;
+  }
+  .project-deep-dive-progress-iframe {
+    width: 70%;
+  }
+}
+
+
+.MODEL_Hammer {
+  position: absolute;
+  z-index: -1;
+  background-image: url(../img/Export1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+}
+
+//.fab, .far {
+//  font-weight: 400;
+//}
+//
+//
+//.fa, .fab, .fad, .fal, .far, .fas {
+//  -moz-osx-font-smoothing: grayscale;
+//  -webkit-font-smoothing: antialiased;
+//  display: inline-block;
+//  font-style: normal;
+//  font-variant: normal;
+//  text-rendering: auto;
+//  line-height: 1;
+//}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
