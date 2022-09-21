@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NUDALZMITH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../sass/custom.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+<body class="bg-primary">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-orange bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/icon.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-orange">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" data-toggle="dropdown">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu bg-primary ">
+                        <a class="dropdown-item" href="../TopProjects.html">Top</a>
+                        <a class="dropdown-item" href="../Projects.html">Prototypes</a>
+                        <a class="dropdown-item" href="../Models.html">Models</a>
+                        <a class="dropdown-item" href="../Projects.html">All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://nudalzmith.itch.io/">itch.io</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!-- Navigation_END -->
+
+
+<!-- Summary -->
+<div class="container-fluid padding project-deep-dive">
+    <hr>
+    <div class="row bg-primary text-center">
+        <div class="col-12">
+
+            <h1 class="display-4">MECHANIC DEFENCE</h1>
+            <!--            <button type="button" onclick="test2()">Test</button>-->
+        </div>
+
+
+    </div>
+
+    <div class="col-12 container-fluid ">
+        <div class="project-deep-dive-summary">
+
+            <p>This is a stationary VR shooter prototype that I worked on over the summer of 2021. It is my first time
+                using Unity’s XR interaction toolkit and was developed with the Valve index controllers in mind. It
+                involves the player shooting at enemies with multiple different guns.
+
+            </p>
+            <div class=" embed-responsive embed-responsive-16by9 project-deep-dive-progress-iframe mx-auto">
+
+                <iframe class="embed-responsive-item "
+                        src="https://www.youtube.com/embed/A9WBiL3OhIs"
+                        class="col-md-12 col-lg-6 align-content-center"></iframe>
+            </div>
+            <p> I have made a devlog to record the first few weeks of development, but unfortunately, this project has
+                been put on hold as I decided to focus on Two Sides.
+            </p>
+
+
+        </div>
+        <hr>
+        <div class="text-center container-fluid project-deep-dive-progress">
+            <h1>BREAKDOWN</h1>
+            <hr>
+            <h2>THE BANG-BANGS</h2>
+            <p>
+                A lot of emphasis was put on the weapon reload to make them satisfying, as it allows the player to
+                interact and operate with it, which plays towards the strength of VR.
+            </p>
+            <div class=" embed-responsive embed-responsive-16by9 project-deep-dive-progress-iframe mx-auto">
+
+                <iframe class="embed-responsive-item "
+                        src="https://www.youtube.com/embed/n9F1GznUs9c"
+                        class="col-md-12 col-lg-6 align-content-center"></iframe>
+            </div>
+            <p>Here is a video showing all the weapons in action</p>
+            <div class=" project-deep-dive-progress-section  container-fluid">
+                <ul class="row align-content-center">
+                    <li class=" col-sm-12">
+                        <div class="project-deep-dive-progress-section-entry">
+
+                            <h3>Player Kit Overhaul</h3>
+                            <img src="../img/MD/Pistol.gif">
+                            <p>The first weapon in the game is a very straightforward semi-auto weapon. Pulling out and
+                                replacing the blue battery to reload. The colour of the battery indicates the energy/
+                                ammo left in it. The player will need to cock the weapon by pulling the back if they are
+                                reloading from empty.</p>
+
+                        </div>
+                    </li>
+                    <li class=" col-sm-12 ">
+                        <div class="project-deep-dive-progress-section-entry">
+                            <h3>Minigun/ Grenade launcher</h3>
+                            <img src="../img/MD/Minigun.gif">
+                            <p>The weapon operates by controlling a mechanical arm, the arm moves using unity’s IK
+                                system. Use the controller to move and point the weapon around. The weapon will be in
+                                minigun mode when holding the controller vertically, it shots projectile full auto at a
+                                high rate. Holding the controller horizontally transforms the weapon into a grenade
+                                launcher that shoots slow travelling bouncing grenades that do slash damage in an area.
+                                The grenade explodes after a set time, bounce or on direct impact at an enemy.</p>
+                        </div>
+
+                    </li>
+                    <li class=" col-sm-12 ">
+                        <div class="project-deep-dive-progress-section-entry">
+                            <h3>SMG</h3>
+                            <img src="../img/MD/SMG.gif">
+                            <p>A small fully auto weapon that shoots at a high rate but with a high bullet spread. This
+                                weapon’s looks are inspired by Halo’s Needler and Destiny’s Vex Mythoclast (totally
+                                wasn’t because I can get it to drop in-game). Its speciality is that it can be partially
+                                loaded and still shoot with at least one battery loaded, 3 batteries maximum. It also
+                                has a very satisfying reload with the empty batteries automatically getting ejected and
+                                popping out.</p>
+                        </div>
+
+                    </li>
+                    <li class=" col-sm-12">
+                        <div class="project-deep-dive-progress-section-entry">
+                            <h3>Shotgun/ Crossbow</h3>
+                            <img src="../img/MD/Crossbow.gif">
+                            <p>
+                                This is the last weapon added in the game. It is a shotgun that is inspired by clay
+                                shooting shotguns, its speciality is that it can turn into a crossbow with a press of a
+                                button. In shotgun form, it shots a spread of projectiles and can be reloaded by
+                                dragging the barrel downwards and letting the player swap the batteries out. Empty
+                                batteries will be automatically ejected as well. In crossbow form, it can lock on to the
+                                target the player is pointed at and shots an arrow that tracks to the target, as
+                                indicated by the line. The broken crystals around the gun show that it is in crossbow
+                                mode, and each piece is a physics object and can interact with the environment.
+
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <hr>
+            <h2>Enemies</h2>
+
+            <div class=" project-deep-dive-progress-section  container-fluid">
+                <ul class="row align-content-center">
+                    <li class=" col-sm-12">
+                        <div class="project-deep-dive-progress-section-entry">
+
+                            <h3>Ground Troops</h3>
+                            <img src="../img/MD/Pistol.gif">
+                            <p>They were meant to move… but they stay still cause I just want something to shoot at.</p>
+
+                        </div>
+                    </li>
+                    <li class=" col-sm-12 ">
+                        <div class="project-deep-dive-progress-section-entry">
+                            <h3>Flying Drones</h3>
+                            <img src="../img/MD/Minigun.gif">
+                            <p>Essentially, they fly around and be annoying. They are weak but fast and hard to hit. The
+                                best weapon to deal with them is the shotgun or crossbow.</p>
+                        </div>
+
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+        </div>
+
+    </div>
+    <hr>
+</div>
+
+
+<!--- Footer -->
+
+<footer>
+    <hr class="dark-100">
+    <div class="container-fluid padding footer">
+        <div class="row text-center">
+
+            <div class="col-12 ">
+                <h5>Anson Wong &copy; 2022</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+

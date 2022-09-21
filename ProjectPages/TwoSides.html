@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NUDALZMITH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../sass/custom.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/popper.js/dist/popper.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</head>
+<body class="bg-primary">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-orange bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="../img/icon.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-orange">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" data-toggle="dropdown">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu bg-primary ">
+                        <a class="dropdown-item" href="../TopProjects.html">Top</a>
+                        <a class="dropdown-item" href="../Projects.html">Prototypes</a>
+                        <a class="dropdown-item" href="../Models.html">Models</a>
+                        <a class="dropdown-item" href="../Projects.html">All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://nudalzmith.itch.io/">itch.io</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!-- Navigation_END -->
+
+
+<!-- Summary -->
+<div class="container-fluid padding project-deep-dive">
+    <hr>
+    <div class="row bg-primary text-center">
+        <div class="col-12">
+
+            <h1 class="display-4">TWO SIDES</h1>
+            <!--            <button type="button" onclick="test2()">Test</button>-->
+        </div>
+
+        <!--- Image Slider -->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+                <li data-target="#slides" data-slide-to="3"></li>
+                <li data-target="#slides" data-slide-to="4"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/TwoSides/carousel_1.png">
+
+                </div>
+                <div class="carousel-item text-shadow-orange">
+                    <img src="../img/TwoSides/carousel_2.png">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/TwoSides/carousel_3.png">
+
+                </div>
+      
+                <div class="carousel-item">
+                    <img src="../img/TwoSides/carousel_4.png">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/TwoSides/carousel_5.png">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-12 container-fluid ">
+            <div>
+                <form action="https://nudalzmith.itch.io/two-sides-one-choice" method="get" target="_blank">
+                    <button type="submit" class="btn btn-outline-itch btn-lg">
+                        <i class="fab fa-itch-io">
+
+                        </i> GAME ITCH PAGE
+                    </button>
+                </form>
+            </div>
+            <div class="project-deep-dive-summary">
+
+                <p>A decision-based life simulator story game developed by a team of 3 developers and an artist.
+                    Inspired by
+                    games like Reigns and Bitlife, where the player has 3 main stats Health, Bux and Mood, they would go
+                    through different stages of life and be given different situations with 2 options which impacts the
+                    3
+                    stats. The goal is to survive as long as possible without any of the stats reaching 0. The player
+                    can
+                    also flip a coin instead and let the game randomly decide his fate.
+
+                </p>
+                <div class=" embed-responsive embed-responsive-16by9 project-deep-dive-progress-iframe mx-auto">
+
+                    <iframe class="embed-responsive-item "
+                            src="https://www.youtube.com/embed/Oq0ltQhlhAg"
+                            class="col-md-12 col-lg-6 align-content-center"></iframe>
+                </div>
+                <p> The game has multiple endings and has around 100+ unique cards and 15+ endings for the player to
+                    discover. Based on the player’s actions throughout the game, they may gain or lose status effects
+                    which
+                    will determine what ending they get at the end.
+                </p>
+                <p>
+                    This game was originally developed in 3 days for the BenBonk Jam #3 with the theme of “two sides”.
+                    The
+                    jam game ended up ranking 5th out of 133 entries and performed well so we decided to continue
+                    development over the summer. We had plans to release this to be a paid game on steam but didn’t due
+                    to
+                    complications with starting a company and taxes. The full version is on itch.io for free now.
+                </p>
+                <div class="team-members col-md-6 mx-auto">
+
+                    <h3 class="text-center">TEAM MEMBERS</h3>
+                    <ul>
+                        <li>
+                            <p><a href="../index.html"><b>Anson Wong</b></a>: Team Leader, Technical Lead, Game
+                                Designer,
+                                Programmer, Shader Graph Wizard</p>
+                            <p><a href="https://www.linkedin.com/in/altair-robinson-b075361ab/"><b>Altair
+                                Robinson</b></a>:
+                                Programmer, Card Designer</p>
+                            <p><a href="www.linkedin.com/in/hcay"><b>Max</b></a>: Programmer, Card Designer</p>
+                            <p><a href="https://www.artstation.com/joirudin"><b>Joi Rudin</b></a>:
+                                Artist, Card Designer</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center container-fluid project-deep-dive-progress">
+                <h1>BREAKDOWN</h1>
+                <hr>
+                <h2>JAM TIME</h2>
+                <div class="row  container-fluid  ">
+                    <div class=" embed-responsive embed-responsive-16by9 project-deep-dive-progress-iframe mx-auto">
+
+                        <iframe class="embed-responsive-item "
+                                src="https://www.youtube.com/embed/_Cn_RmVUA6k"
+                                class="col-md-12 col-lg-6 align-content-center"></iframe>
+                    </div>
+                    <p class="col-md-12">A devlog was made to capture and explained what happened during the development
+                        of
+                        the jam.
+                    </p>
+                    <p>
+                        A key design decision that was missed out in the log was that the heads and tails buttons were
+                        originally testing tools and planned to have limited uses during gameplay. Though, throughout
+                        development and playtesting, we decided to change the coin flip from being the main mechanic to
+                        an
+                        optional mechanic and the buttons to be the main option for the player to interact with. The
+                        reason
+                        for
+                        that was that the coin flips were too inconsistent, random and lacked control by the player
+                        which
+                        may
+                        lead to unsatisfying game overs. Comparision to being given the choice to pick, it retains the
+                        control
+                        of the player to which decision they decided, but with the results being hidden, the player will
+                        have to
+                        deduce how would each option affects them. The change to the coin being optional also spices the
+                        gameplay up, as this allows the player to essentially let the game decide if they don’t feel
+                        like
+                        deducing and more often be surprised by the outcome.
+                    </p>
+
+
+                </div>
+                <hr>
+
+
+                <h2>Post jam</h2>
+                <div class="  container-fluid  ">
+                    <p>With the results of the jam being that well, we decided to continue development for the next 2
+                        months. We added better card creation and editing by keeping the card data in a CSV format and
+                        turning that into game data. Added features like achievements and endings tracking, status
+                        effect
+                        providing passive buffs and debuffs to stats. We also increase the number of cards and possible
+                        endings drastically and also introduce little story sequences now and then during gameplay.
+                    </p>
+
+                </div>
+
+                <hr>
+
+
+            </div>
+        </div>
+
+    </div>
+    <hr>
+</div>
+
+
+<!--- Footer -->
+
+<footer>
+    <hr class="dark-100">
+    <div class="container-fluid padding footer">
+        <div class="row text-center">
+
+            <div class="col-12 ">
+                <h5>Anson Wong &copy; 2022</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+

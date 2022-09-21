@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NUDALZMITH>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sass/custom.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+
+</head>
+<body class="bg-primary">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-orange bg-dark sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/icon.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto text-orange">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" data-toggle="dropdown">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu bg-primary ">
+                        <a class="dropdown-item" href="TopProjects.html">Top</a>
+                        <a class="dropdown-item" href="Projects.html">Prototypes</a>
+                        <a class="dropdown-item" href="Models.html">Models</a>
+                        <a class="dropdown-item" href="Projects.html">All</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contacts.html">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="https://nudalzmith.itch.io/">itch.io</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+<!-- Navigation_END -->
+
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+        <li data-target="#slides" data-slide-to="3"></li>
+        <li data-target="#slides" data-slide-to="4"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/Export1.png">
+            <div class="carousel-caption text-shadow-orange">
+                <h1 class="display-2 text-shadow-orange">Anson Wong</h1>
+                <h2 class="text-shadow-orange">NUDALZMITH</h2>
+                <div>
+                    <form action="Projects.html" method="get" target="_blank">
+                        <button type="submit" class="btn btn-outline-orange btn-lg">
+                            VIEW PROJECTS
+                        </button>
+                    </form>
+                </div>
+                <p></p>
+                <div>
+                    <form action="https://nudalzmith.itch.io/" method="get" target="_blank">
+                        <button type="submit" class="btn btn-outline-itch btn-lg">
+                            <i class="fab fa-itch-io">
+
+                            </i> ITCH PAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item text-shadow-orange">
+            <img src="img/Di-Jumper.png">
+            <div class="carousel-caption">
+                <h1 class="display-2 text-shadow-orange">PROGRAMMER</h1>
+                <h2 class="display-2 text-shadow-orange">C#, Java, Python, C++</h2>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/MoA.png">
+            <div class="carousel-caption">
+                <h1 class="display-2 text-shadow-orange">GAME DESIGNER</h1>
+                <h2 class="display-2 text-shadow-orange">Unity, Pygame</h2>
+                <h3 class="display-2 text-shadow-orange">More than 10 published games</h3>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/VRMD.gif">
+            <div class="carousel-caption">
+                <h1 class="display-2 text-shadow-orange">VR ENTHUSIAST</h1>
+                <h2 class="display-2 text-shadow-orange">Unity XR, HTC Vive, Valve Index</h2>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/Bottle.gif">
+            <div class="carousel-caption">
+                <h1 class="display-2 text-shadow-orange">3D ARTIST</h1>
+                <!--                <h1 class="display-2 text-shadow-orange">VISUAL EFFECTS</h1>-->
+                <!--                <h1 class="display-2 text-shadow-orange"></h1>-->
+                <h2 class="display-2 text-shadow-orange">Blender, Cinema 4D, After Effects</h2>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--- About me -->
+<div class="container-fluid Padding">
+    <hr>
+    <div class="row about-me bg-primary">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+            <a href="#">
+                <img src="img/icon_Large.png">
+                <!--                <button type="button" class="btn btn-outline-secondary btn-lg align-self-center">LinkedIn</button>-->
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <h1>ABOUT ME:</h1>
+            <p> A third year student studying Games and Multimedia Enviorment BSC at the University of Sussex.</p>
+            <p> Highly experienced in Unity, C#, Java and Python, as well as 3D Modelling applications like Blender and
+                Cinema 4D and Video Production softwares such as After Effects, Photoshop and Premiere</p>
+        </div>
+    </div>
+    <hr>
+
+</div>
+
+<!--- Latest Project -->
+<div class="container-fluid padding">
+    <div class="row bg-primary text-center">
+        <div class="col-12">
+            <h1 class="display-4">PROJECTS</h1>
+
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <form action="TopProjects.html" method="get">
+                    <button type="submit" class="btn btn-outline-orange btn-lg">
+                        TOP PROJECTS
+                    </button>
+                </form>
+            </div>
+            <div class="col-12 d-flex align-items-center justify-content-center">
+                <form action="Projects.html" method="get">
+                    <button type="submit" class="btn btn-outline-orange btn-lg">
+                        ALL PROJECTS
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <div class="row bg-primary text-center">
+        <div class="col-12">
+            <h1 class="display-4">PROJECT SHOWCASE</h1>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row container-fluid padding latest-project ">
+        <div class="col-sm-12 col-md-6 latest-project-img">
+            <!--            <img src="img/Di-Jumper.png">-->
+            <div class=" embed-responsive embed-responsive-16by9 project-deep-dive-progress-iframe mx-auto">
+
+                <iframe class="embed-responsive-item "
+                        src="https://www.youtube.com/embed/xwJGR4aIqkc"
+                        class="align-content-center"></iframe>
+            </div>
+        </div>
+
+        <div class=" col-md-6 latest-project-text">
+            <h1>Di-Jumper</h1>
+            <p> A first-person horror-stealth game designed and developed for the submission for the Programming for 3D
+                module. The game involves the player repairing a jukebox while traversing between different dimensions
+                and iterations of a house and avoiding a spooky monster. The game is greatly inspired by Dishonored 2’s
+                “Crack in the Slab” mission, from its gameplay design down to its technical implementation.
+            </p>
+
+            <form action="https://nudalzmith.itch.io/di-jumper" method="get" target="_blank">
+                <button class="btn btn-outline-orange btn-lg" type="submit">ITCH PAGE</button>
+            </form>
+        </div>
+
+
+    </div>
+
+</div>
+<hr>
+
+<!--- Education Section -->
+<div class="container-fluid padding">
+    <div class="row bg-primary text-center">
+        <div class="col-12">
+            <h1 class="display-4">TIMELINE</h1>
+        </div>
+    </div>
+    <hr>
+
+    <div class="education">
+        <ul>
+            <li class="row education-entry">
+                <h1 class="col-md-2 education-date align-content-center align-items-center">2022:</h1>
+                <ul class="col-md-10">
+                    <li>
+                        <div class="education-title">
+                            <h1>GAMEs BCs (Final Year)</h1>
+                            <h2><b>First Honors</b>  Average Score: 82% (First honor threshold: 70%)</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="education-title">
+                            <h1>Student Demonstrator for 3D Modelling and Animation Module</h1>
+                            <h2>Jan 2022 - Jun 2022</h2>
+                        </div>
+
+                    </li>
+                </ul>
+                <hr>
+            </li>
+            <li class="row education-entry">
+                <h1 class="col-md-2 education-date align-content-center align-items-center">2021:</h1>
+                <ul class="col-md-10">
+                    <li>
+                        <div class="education-title">
+                            <h1>GAMEs BCs (Second Year)</h1>
+                            <h2>Average Scare: 84%</h2>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="education-title">
+                            <h1>Student Demonstrator for Game Design and Development Module</h1>
+                            <h2>Oct 2021 - Jun 2022</h2>
+                        </div>
+
+                    </li>
+                </ul>
+                <hr>
+            </li>
+            <li class="row education-entry">
+                <h1 class="col-md-2 education-date align-content-center align-items-center">2020:</h1>
+                <ul class="col-md-10">
+                    <li>
+                        <div class="education-title">
+                            <h1>GAMEs BCs (First Year)</h1>
+                            <h2>Average Scare: 91%</h2>
+                        </div>
+                    </li>
+                    <div class="education-title">
+                        <h1>Employed as Peer Assisted Leaner</h1>
+                        <h2>Sep 2020 - PRESENT</h2>
+                    </div>
+                </ul>
+            </li>
+            <li class="row education-entry">
+                <h1 class="col-md-2 education-date align-content-center align-items-center">2019:</h1>
+                <ul class="col-md-10">
+                    <li>
+                        <div class="education-title">
+                            <h1>A-Levels</h1>
+                            <div class="row education-scores">
+                                <h2 class=" col-sm-5 col-md-2">Maths: A*</h2>
+                                <h2 class="col-sm-5 col-md-2">Add Maths: A</h2>
+                                <h2 class="col-sm-12 col-md-5">Computer Science: A</h2>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="row education-entry">
+                <h1 class="col-md-2 education-date align-content-center align-items-center">2021:</h1>
+
+                <ul class="col-md-10">
+                    <li>
+                        <div class="education-title">
+                            <h1>GCSE</h1>
+                            <div class="row education-scores">
+                                <h2 class=" col-sm-5 col-md-2">Maths: A*</h2>
+                                <h2 class=" col-sm-5 col-md-2">English: B</h2>
+                                <h2 class=" col-sm-12 col-md-5">7A*s in Total</h2>
+                                <!--                        <h2 class="col-5">Computer Science: A</h2>-->
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<hr class="my-4">
+
+
+<!--- Fixed background -->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+
+        </div>
+    </div>
+</figure>
+
+<!--- Connect -->
+<div class="container-fluid padding">
+    <hr class="my-4">
+
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 contact">
+            <a href="mailto:anson.wong.104121@gmail.com">anson.wong.104121@gmail.com</a>
+            <p>Feel free to message me if you have any enquiries</p>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="social-icons fab fa-itch-io"></i> </a>
+            <a href="#"><i class="social-icons fa fa-github"></i> </a>
+            <a href="#"><i class="social-icons fa fa-youtube"></i> </a>
+            <a href="#"><i class="social-icons fa fa-linkedin "></i> </a>
+        </div>
+    </div>
+</div>
+
+<!--- Footer -->
+
+<footer>
+    <hr class="dark-100">
+    <div class="container-fluid padding footer">
+        <div class="row text-center">
+
+            <div class="col-12">
+                <h5>Anson Wong &copy; 2022</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<!--&lt;!&ndash;- Two Column Section &ndash;&gt;-->
+<!--<div class="container-fluid padding">-->
+<!--    <div class="row padding">-->
+<!--        <div class="col-md-12 col-lg-6">-->
+<!--            <h2> Lorem ipsum dolor sit amet</h2>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem error hic obcaecati omnis-->
+<!--                perspiciatis placeat repellat totam. Dolore, magni!</p>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem error hic obcaecati omnis-->
+<!--                perspiciatis placeat repellat totam. Dolore, magni!</p>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem error hic obcaecati omnis-->
+<!--                perspiciatis placeat repellat totam. Dolore, magni!</p>-->
+<!--            <br>-->
+<!--            <a href="#" class="btn btn-primary">Learn More</a>-->
+<!--        </div>-->
+<!--        <div class="col-lg-6">-->
+<!--            <img src="img/desk.png" class="img-fluid">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<hr class="my-4">-->
+<!--&lt;!&ndash;- Fixed background &ndash;&gt;-->
+<!--<figure>-->
+<!--    <div class="fixed-wrap">-->
+<!--        <div id="fixed">-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</figure>-->
+
+
+<!--&lt;!&ndash;- Emoji Section &ndash;&gt;-->
+<!--<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>-->
+<!--<div id="emoji" class="collapse">-->
+<!--    <div class="container-fluid padding">-->
+<!--        <div class="row text-center">-->
+<!--            <div class="col-xs-12 col-sm-6 col-md-3"><img class="gif" src="img/gif/panda.gif"></div>-->
+<!--            <div class="col-xs-12 col-sm-6 col-md-3"><img class="gif" src="img/gif/poo.gif"></div>-->
+<!--            <div class="col-xs-12 col-sm-6 col-md-3"><img class="gif" src="img/gif/unicorn.gif"></div>-->
+<!--            <div class="col-xs-12 col-sm-6 col-md-3"><img class="gif" src="img/gif/chicken.gif"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;- Meet the team &ndash;&gt;-->
+<!--<div class="container-fluid padding">-->
+<!--    <div class="row welcome text-center">-->
+<!--        <div class="col-12">-->
+<!--            <h1 class="display-4">Meet the Team</h1>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;- Cards &ndash;&gt;-->
+<!--<div class="container-fluid padding">-->
+<!--    <div class="row padding">-->
+
+<!--        <div class="col-md-4">-->
+<!--            <div class="card">-->
+<!--                <img src="img/team1.png" class="card-img-top">-->
+<!--                <div class="card-body">-->
+<!--                    <h4 class="card-title">John</h4>-->
+<!--                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus-->
+<!--                        harum in laboriosam molestiae suscipit vel voluptate. Ducimus, pariatur, soluta!</p>-->
+<!--                    <a href="#" class="btn btn-outline-secondary">See Profile</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="card">-->
+<!--                <img src="img/team2.png" class="card-img-top">-->
+<!--                <div class="card-body">-->
+<!--                    <h4 class="card-title">Mary</h4>-->
+<!--                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus-->
+<!--                        harum in laboriosam molestiae suscipit vel voluptate. Ducimus, pariatur, soluta!</p>-->
+<!--                    <a href="#" class="btn btn-outline-secondary">See Profile</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="card">-->
+<!--                <img src="img/team3.png" class="card-img-top">-->
+<!--                <div class="card-body">-->
+<!--                    <h4 class="card-title">Phil</h4>-->
+<!--                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate delectus-->
+<!--                        harum in laboriosam molestiae suscipit vel voluptate. Ducimus, pariatur, soluta!</p>-->
+<!--                    <a href="#" class="btn btn-outline-secondary">See Profile</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;- Two Column Section &ndash;&gt;-->
+<!--<div class="container-fluid padding">-->
+<!--    <div class="row padding">-->
+<!--        <div class="col-md-12 col-lg-6">-->
+<!--            <h2> Lorem ipsum dolor sit amet 2</h2>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem error hic obcaecati omnis-->
+<!--                perspiciatis placeat repellat totam. Dolore, magni!</p>-->
+<!--            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem error hic obcaecati omnis-->
+<!--                perspiciatis placeat repellat totam. Dolore, magni!</p>-->
+<!--            <br>-->
+
+<!--        </div>-->
+<!--        <div class="col-lg-6">-->
+
+<!--            <img src="img/bootstrap2.png" class="img-fluid">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<hr class="my-4">-->
+
+
+<!--&lt;!&ndash; View in Browser: Drew's #1 Trending YouTube Tutorial &ndash;&gt;-->
+<!--<div class="youtube-tutorial">-->
+<!--	<a href="http://w3n.link/bundle-bonus-playlist" target="_blank" style="cursor: pointer!important;">-->
+<!--    <img src="https://w3newbie.com/wp-content/uploads/12-site-bundle-banner.png" style="max-width: 100%; position: absolute; bottom: 0;">-->
+<!--  </a>-->
+<!--</div>-->
+<!--&lt;!&ndash; End View in Browser: Drew's #1 Trending YouTube Tutorial &ndash;&gt;-->
+
+
