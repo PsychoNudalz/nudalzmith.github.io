@@ -13,5 +13,6 @@
 !ProjectInfo/*
 !Scripts/*
 
+
 # post ignore
-node_modules/*
+#node_modules/*
