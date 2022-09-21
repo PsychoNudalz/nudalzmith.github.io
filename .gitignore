@@ -10,6 +10,8 @@
 !*.html
 !*.js
 !*.css
+!ProjectInfo/*
+!Scripts/*
 
 # post ignore
 node_modules/*
