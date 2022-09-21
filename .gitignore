@@ -10,7 +10,7 @@
 !*.html
 !*.js
 !*.css
-!ProjectInfo/*
+!ProjectsInfo/*
 !Scripts/*
 !scss/*
 !img/Website/*
