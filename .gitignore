@@ -1,8 +1,15 @@
 *
 !*/
 
+
+
 # track this file
 !.gitignore
 
-# whitelist everything in ./config/
+# whitelist
 !*.html
+!*.js
+!*.css
+
+# post ignore
+node_modules/*
