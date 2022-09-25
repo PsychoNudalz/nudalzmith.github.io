@@ -12,7 +12,7 @@ function test() {
         });
 }
 
-function test2() {
+function LoadProjects() {
 
     var ourRequest = new XMLHttpRequest();
     ourRequest.open('GET', "./ProjectsInfo/Projects.json");
@@ -24,7 +24,7 @@ function test2() {
     ourRequest.send();
 }
 
-function test3() {
+function LoadTopProjects() {
 
     var ourRequest = new XMLHttpRequest();
     ourRequest.open('GET', "./ProjectsInfo/Projects.json");
