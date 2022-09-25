@@ -1,99 +1,135 @@
 { "projects": [
 {
   "projectName": "Master of Arms 1.0+2.0",
+  "top": "y",
   "img": "img/ProjectClips/MoA.jpg",
+  "genre": "Rogue Lite First Person Looter Shooter",
   "purpose": "Year 2 Game Design and Development Coursework 2/3 & Final Year Project",
   "achievement": "Final Score: 87%",
   "description": "A rogue-lite first-person looter shooter originally designed and developed as a team of 4-5 developers for the Game Design and Development module and is now development is being continued by me as my final year project.</p><p>\nThe game is best described as an FPS game with movement and shooting mechanics inspired by other fast pace shooters like DOOM Eternal, Apex Legends and Destiny 2.  Mashed with guns that are randomly pieced and generated similar to the Borderlands series.  Sprinkled with some rogue-lite elements inspired by Hades.\n",
   "itchLink": "https://nudalzmith.itch.io/master-of-arms",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": "ProjectPages/MoA.html"
 },{
   "projectName": "Di-Jumper",
-  "img": "img/Di-Jumper.png",
+  "top": "",
+  "img": "img/ProjectClips/Di-Jumper.png",
+  "genre": "",
   "purpose": "Year 3 Programming for 3D Coursework",
   "achievement": "Final Score: 80%",
   "description": "A first-person horror-stealth game designed and developed for the submission for the Programming for 3D module.  The game involves the player repairing a jukebox while traversing between different dimensions and iterations of a house and avoiding a spooky monster.  The game is greatly inspired by Dishonored 2\u2019s \u201cCrack in the Slab\u201d mission, from its gameplay design down to its technical implementation.",
   "itchLink": "https://nudalzmith.itch.io/di-jumper",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Mechanic Defence VR (Prototype)",
+  "top": "y",
   "img": "img/ProjectClips/Mechanic Defence.png",
+  "genre": "VR Shooter Prototype",
   "purpose": "Prototype and Learning Unity XR Package",
   "achievement": "",
   "description": "A prototype summer project experimenting with Unity\u2019s XR interaction toolkit to build a VR fps game.  Its idea was to have the player defend himself against waves of enemies on the ground and in the air.  Unfortunately, the project was put on hold, as I had to work on another project, Two Sides One Choice.",
   "itchLink": "https://nudalzmith.itch.io/po-te-tows",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": "ProjectPages/MechanicDefence.html"
 },{
   "projectName": "Po-Te-Tows",
+  "top": "y",
   "img": "img/ProjectClips/Po-Te-Tow.jpg",
+  "genre": "First Person Adventure Puzzle Game",
   "purpose": "Game Jobs Live Game Parade Summer 2021",
   "achievement": "Best 3D Art",
   "description": "A first-person puzzle adventure game with a sense of humour, developed in a team of 3 developers and an artist.  Inspired by games like Henry Stickman, the game involves the player picking up items and using them in the environment to escape.  There are 5 different endings in the game and more than 10 unique deaths.",
   "itchLink": "https://nudalzmith.itch.io/po-te-tows",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": "ProjectPages/Potetows.html"
 },{
   "projectName": "Two Sides, One Choice",
+  "top": "y",
   "img": "img/ProjectClips/Two Sides.png",
+  "genre": "Life Simulator Adventure Game",
   "purpose": "BenBonk Game Jam #3 2021",
   "achievement": "Ranked 5th out of 133 entries",
   "description": "A decision-based life simulator story game developed in a team of 3 developers and an artist.  Inspired by games like Reigns and Bitlife, where the player has 3 main stats Health, Bux and Mood, they would go through different stages of life and be given different situations with 2 options which impacts the 3 stats.  The goal is to survive as long as possible without any of the stats reaching 0.  The player can also flip a coin instead and let the game randomly decide your fate.",
   "itchLink": "https://nudalzmith.itch.io/two-sides-one-choice",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": "ProjectPages/TwoSides.html"
 },{
   "projectName": "Clue!",
+  "top": "",
   "img": "img/ProjectClips/Clue.png",
+  "genre": "",
   "purpose": "Year 2 Software Engineering Group Coursework",
   "achievement": "Final Score: 93%",
   "description": "A digital recreation of the board game Clue! for the submission for the Software Engineering module.  It was developed by a team of 4 developers.  Though it does not support multiplayer, it does have the option to enable smart AI players.",
   "itchLink": "https://nudalzmith.itch.io/clue-courswork",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Lux",
+  "top": "",
   "img": "img/ProjectClips/Lux.png",
+  "genre": "",
   "purpose": "Global Game Jam 2021",
   "achievement": "It looks very visually appealing - Friends",
   "description": "A top-down isometric puzzle game where you go around collecting and guiding lost souls while avoiding hostile creatures. It was developed as a team of 4 developers.",
   "itchLink": "https://nudalzmith.itch.io/lux",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Indijones Ana's Bizarre Adventure",
+  "top": "",
   "img": "img/ProjectClips/IndiJone.png",
+  "genre": "",
   "purpose": "Year 2 Game Design and Development Coursework 1",
   "achievement": "Final Score: 84%",
   "description": "A 3D third-person adventure game was developed for the Game Design and Development module.  It is the first time I\u2019ve worked as a group of 4 developers.  The controls are a bit janky and the game is questionably buggy, but it was a really enjoyable experience in developing a game in a bigger group.",
   "itchLink": "https://nudalzmith.itch.io/indijones-anas-bizarre-adventure",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Loot Retrieval Squad",
+  "top": "",
   "img": "img/ProjectClips/LRS.png",
+  "genre": "",
   "purpose": "VimJam: Collectables (8 Bits to Infinity) 2020",
   "achievement": "Technical Implementation Ranked: 50/459",
   "description": "A turn-based RPG game inspired by D&D\u2019s combat system.  The game was developed by an artist.  It involves you controlling a party of adventurers tasked to retrieve loot while defending themselves against hostile combatants.  The game also has randomly generated enemy placements and mission objectives\u2026  And also a secret mission gets triggered when the Konami code gets entered in the mission select screen.",
   "itchLink": "https://nudalzmith.itch.io/loot-retrieval-squad",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Game Rewind 2020",
+  "top": "",
   "img": "img/ProjectClips/Game Rewind 2020.png",
+  "genre": "",
   "purpose": "Brackeys Jam 2020.2",
   "achievement": "Ranked 210/ 1804 in Fun",
   "description": "A 2D topdown shooter with the theme of paying homage to games released in 2020 with characters from different game series.  The speciality of this game is that all actions you have performed would be recorded and replayed when the player rewinds to restart the level each time.",
   "itchLink": "https://nudalzmith.itch.io/game-rewind-2020",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "I Can't Drive This Thing!",
+  "top": "",
   "img": "img/ProjectClips/I Can't Drive This Thing.jpeg",
+  "genre": "",
   "purpose": "GMTK Game Jam 2020",
   "achievement": "Ranked 3414/ 5317",
   "description": "A 2D top-down driving rage game developed with another developer, where the controls change whenever the player drives through a checkpoint.  This game taught me a lot about game balancing and design, especially the balance between being fun and chaotic against being frustrating.",
   "itchLink": "https://nudalzmith.itch.io/i-cant-drive-this-thing-gmtk2020",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 },{
   "projectName": "Scavenge Repair Survive",
+  "top": "",
   "img": "img/ProjectClips/SRS.gif",
+  "genre": "",
   "purpose": "Global Game Jam 2020",
   "achievement": "First game made with Unity and first game jam",
   "description": "My first Unity game developed during my first game jam and the first time working with another developer.  It is a very simple first-person shooter game where the player can shoot an SMG or a shotgun at enemy robots.",
   "itchLink": "https://nudalzmith.itch.io/scavage-repair-survive",
-  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms"
+  "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
+  "htmlLink": ""
 }
 ]}

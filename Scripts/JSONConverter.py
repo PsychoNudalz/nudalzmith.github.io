@@ -92,9 +92,10 @@ def MakeJSON():
         # 
         for rows in csvReader:
             data = rows
-            dataString += json.dumps(data, indent=2)
-            dataString += ","
-            count += 1
+            if not (data["projectName"] == ""):
+                dataString += json.dumps(data, indent=2)
+                dataString += ","
+                count += 1
 
     dataString = dataString[:-1]
     finalData = "{ \"projects\": [\n"+dataString+"\n]}"
@@ -107,4 +108,3 @@ def MakeJSON():
 
 
 # MakeCSV()
-# MakeJSON()

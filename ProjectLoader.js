@@ -19,7 +19,7 @@ function LoadProjects() {
     ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         //console.log(ourData.projects[1]);
-        console.log(renderHTML(ourData.projects));
+        console.log(renderHTML_Projects(ourData.projects));
     };
     ourRequest.send();
 }
@@ -31,12 +31,12 @@ function LoadTopProjects() {
     ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         //console.log(ourData.projects[1]);
-        console.log(renderHTML2(ourData.topprojects));
+        console.log(renderHTML2_TopProjects(ourData.projects));
     };
     ourRequest.send();
 }
 
-function renderHTML(data) {
+function renderHTML_Projects(data) {
     var htmlString = " <ul class=\"row project-entry-zone align-content-center\">";
 
     var projectContainer = document.getElementById("project-entry-zone");
@@ -66,7 +66,7 @@ function renderHTML(data) {
     return htmlString;
 }
 
-function renderHTML2(data) {
+function renderHTML2_TopProjects(data) {
     var htmlString = " <ul class=\"row project-entry-zone align-content-center\">";
 
     var projectContainer = document.getElementById("project-entry-zone");
@@ -79,15 +79,18 @@ function renderHTML2(data) {
     let i;
     console.log(data.length)
     for (i = 0; i < data.length; i++) {
-        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry   \">" +
-            "<a target='_blank' class='' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
-            " <img src=\"" + data[i].img + "\">" +
-            "<h1>" + data[i].genre + "</h1>" +
-            "<hr>"+
-            "<h2>" + data[i].purpose + "</h2>" +
-            "<h3>" + data[i].achievement + "</h3>" +
+        if (data[i].top != "") {
 
-            "</div></li>";
+            htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry   \">" +
+                "<a target='_blank' class='' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
+                " <img src=\"" + data[i].img + "\">" +
+                "<h1>" + data[i].genre + "</h1>" +
+                "<hr>" +
+                "<h2>" + data[i].purpose + "</h2>" +
+                "<h3>" + data[i].achievement + "</h3>" +
+
+                "</div></li>";
+        }
     }
     htmlString += "</ul>"
 
