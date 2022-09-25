@@ -51,7 +51,7 @@ function renderHTML_Projects(data) {
     for (i = 0; i < data.length; i++) {
         htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-4\' ><div class=\"row project-entry   \">" +
             "<a target='_blank' class='' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
-            " <img src=\"" + data[i].img + "\">" +
+            FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
             "<h3>" + data[i].achievement + "</h3>" +
             "<p>" + ConvertDescription(data[i].description) + "</p>" +
@@ -62,7 +62,8 @@ function renderHTML_Projects(data) {
 
     //projectContainer.insertAdjacentHTML("beforeend", htmlString);
     projectContainer.innerHTML = htmlString;
-    console.log(htmlString);
+    // console.log(htmlString);
+    LoadFancyBox();
     return htmlString;
 }
 
@@ -83,7 +84,7 @@ function renderHTML2_TopProjects(data) {
 
             htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry   \">" +
                 "<a target='_blank' class='' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
-                " <img src=\"" + data[i].img + "\">" +
+                FancyBoxImg(data[i].img, data[i].youtubeLink) +
                 "<h1>" + data[i].genre + "</h1>" +
                 "<hr>" +
                 "<h2>" + data[i].purpose + "</h2>" +
@@ -96,7 +97,9 @@ function renderHTML2_TopProjects(data) {
 
     //projectContainer.insertAdjacentHTML("beforeend", htmlString);
     projectContainer.innerHTML = htmlString;
-    console.log(htmlString);
+    // console.log(htmlString);
+    LoadFancyBox();
+
     return htmlString;
 }
 
@@ -107,4 +110,22 @@ function ConvertDescription(text) {
     text = text.replaceAll("\n", "")
     text = text.replaceAll("\\n", "")
     return text
+}
+
+function FancyBoxImg(img, link) {
+    return "<a class='fancybox fancybox.iframe' data-fancybox=\'gallery\'href=\"" + link + "\">" + "<img src=\"" + img + "\"></img></a>"
+
+}
+
+function LoadFancyBox() {
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        dragToClose: false,
+
+        Toolbar: false,
+        closeButton: "top",
+
+        Image: {
+            zoom: false,
+        }
+    });
 }
