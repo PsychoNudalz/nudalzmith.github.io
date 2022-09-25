@@ -49,11 +49,11 @@ function renderHTML_Projects(data) {
     let i;
     console.log(data.length)
     for (i = 0; i < data.length; i++) {
-        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-4\' ><div class=\"row project-entry   \">" +
+        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6 col-xl-4\' ><div class=\"row project-entry   \">" +
             "<a target='_blank' class='' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
             FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
-            "<h3>" + data[i].achievement + "</h3>" +
+            "<h3>"+ ConvertAchievement(data[i].achievement)+"</h3>"+
             "<p>" + ConvertDescription(data[i].description) + "</p>" +
 
             "</div></li>";
@@ -88,7 +88,7 @@ function renderHTML2_TopProjects(data) {
                 "<h1>" + data[i].genre + "</h1>" +
                 "<hr>" +
                 "<h2>" + data[i].purpose + "</h2>" +
-                "<h3>" + data[i].achievement + "</h3>" +
+                "<h3>"+ ConvertAchievement(data[i].achievement)+"</h3>"+
 
                 "</div></li>";
         }
@@ -106,9 +106,16 @@ function renderHTML2_TopProjects(data) {
 
 function ConvertDescription(text) {
     text = text.replaceAll("\\n\n", "</p><p>")
-    text = text.replaceAll("\n", "</p><p>")
+    text = text.replaceAll("\\n", "</p><p>")
     text = text.replaceAll("\n", "")
     text = text.replaceAll("\\n", "")
+    return text
+}
+
+function ConvertAchievement(text) {
+    text = text.replaceAll("\\n\n", "</h3><h3>")
+    text = text.replaceAll("\\n", "</h3><h3>")
+
     return text
 }
 
