@@ -54,7 +54,7 @@ function renderHTML_Projects(data) {
             " <img src=\"" + data[i].img + "\">" +
             "<h2>" + data[i].purpose + "</h2>" +
             "<h3>" + data[i].achievement + "</h3>" +
-            "<p>" + data[i].description + "</p>" +
+            "<p>" + ConvertDescription(data[i].description) + "</p>" +
 
             "</div></li>";
     }
@@ -98,4 +98,11 @@ function renderHTML2_TopProjects(data) {
     projectContainer.innerHTML = htmlString;
     console.log(htmlString);
     return htmlString;
+}
+
+
+function ConvertDescription(text){
+    text= text.replaceAll("\n","</p><p>")
+    text = text.replaceAll("\n","")
+    return text
 }

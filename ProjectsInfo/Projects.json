@@ -2,18 +2,18 @@
 {
   "projectName": "Master of Arms 1.0+2.0",
   "top": "y",
-  "img": "img/ProjectClips/MoA.jpg",
+  "img": "img/Website/ProjectThumbnails/MoA.jpg",
   "genre": "Rogue Lite First Person Looter Shooter",
   "purpose": "Year 2 Game Design and Development Coursework 2/3 & Final Year Project",
-  "achievement": "Final Score: 87%",
-  "description": "A rogue-lite first-person looter shooter originally designed and developed as a team of 4-5 developers for the Game Design and Development module and is now development is being continued by me as my final year project.</p><p>\nThe game is best described as an FPS game with movement and shooting mechanics inspired by other fast pace shooters like DOOM Eternal, Apex Legends and Destiny 2.  Mashed with guns that are randomly pieced and generated similar to the Borderlands series.  Sprinkled with some rogue-lite elements inspired by Hades.\n",
+  "achievement": "Final Score: 80%",
+  "description": " A rogue-lite first-person looter shooter originally designed and developed by a team of 4-5 developers for the Game Design and Development module for 5 months.  Development continued after by myself for my final year project.\\n\nThe game is best described as an FPS game with movement and shooting mechanics inspired by other fast pace shooters like DOOM Eternal, Apex Legends and Destiny 2.  Mashed with guns that are randomly pieced and generated similar to the Borderlands series.  Sprinkled with some rogue-lite elements inspired by Hades.\n",
   "itchLink": "https://nudalzmith.itch.io/master-of-arms",
   "youtubeLink": "https://nudalzmith.itch.io/master-of-arms",
   "htmlLink": "ProjectPages/MoA.html"
 },{
   "projectName": "Di-Jumper",
   "top": "",
-  "img": "img/ProjectClips/Di-Jumper.png",
+  "img": "img/Website/ProjectThumbnails/Di-Jumper.png",
   "genre": "",
   "purpose": "Year 3 Programming for 3D Coursework",
   "achievement": "Final Score: 80%",
@@ -24,7 +24,7 @@
 },{
   "projectName": "Mechanic Defence VR (Prototype)",
   "top": "y",
-  "img": "img/ProjectClips/Mechanic Defence.png",
+  "img": "img/Website/ProjectThumbnails/Mechanic Defence.png",
   "genre": "VR Shooter Prototype",
   "purpose": "Prototype and Learning Unity XR Package",
   "achievement": "",
@@ -35,7 +35,7 @@
 },{
   "projectName": "Po-Te-Tows",
   "top": "y",
-  "img": "img/ProjectClips/Po-Te-Tow.jpg",
+  "img": "img/Website/ProjectThumbnails/Po-Te-Tow.jpg",
   "genre": "First Person Adventure Puzzle Game",
   "purpose": "Game Jobs Live Game Parade Summer 2021",
   "achievement": "Best 3D Art",
@@ -46,7 +46,7 @@
 },{
   "projectName": "Two Sides, One Choice",
   "top": "y",
-  "img": "img/ProjectClips/Two Sides.png",
+  "img": "img/Website/ProjectThumbnails/Two Sides.png",
   "genre": "Life Simulator Adventure Game",
   "purpose": "BenBonk Game Jam #3 2021",
   "achievement": "Ranked 5th out of 133 entries",
@@ -57,7 +57,7 @@
 },{
   "projectName": "Clue!",
   "top": "",
-  "img": "img/ProjectClips/Clue.png",
+  "img": "img/Website/ProjectThumbnails/Clue.png",
   "genre": "",
   "purpose": "Year 2 Software Engineering Group Coursework",
   "achievement": "Final Score: 93%",
@@ -68,7 +68,7 @@
 },{
   "projectName": "Lux",
   "top": "",
-  "img": "img/ProjectClips/Lux.png",
+  "img": "img/Website/ProjectThumbnails/Lux.png",
   "genre": "",
   "purpose": "Global Game Jam 2021",
   "achievement": "It looks very visually appealing - Friends",
@@ -79,7 +79,7 @@
 },{
   "projectName": "Indijones Ana's Bizarre Adventure",
   "top": "",
-  "img": "img/ProjectClips/IndiJone.png",
+  "img": "img/Website/ProjectThumbnails/IndiJone.png",
   "genre": "",
   "purpose": "Year 2 Game Design and Development Coursework 1",
   "achievement": "Final Score: 84%",
@@ -90,7 +90,7 @@
 },{
   "projectName": "Loot Retrieval Squad",
   "top": "",
-  "img": "img/ProjectClips/LRS.png",
+  "img": "img/Website/ProjectThumbnails/LRS.png",
   "genre": "",
   "purpose": "VimJam: Collectables (8 Bits to Infinity) 2020",
   "achievement": "Technical Implementation Ranked: 50/459",
@@ -101,7 +101,7 @@
 },{
   "projectName": "Game Rewind 2020",
   "top": "",
-  "img": "img/ProjectClips/Game Rewind 2020.png",
+  "img": "img/Website/ProjectThumbnails/Game Rewind 2020.png",
   "genre": "",
   "purpose": "Brackeys Jam 2020.2",
   "achievement": "Ranked 210/ 1804 in Fun",
@@ -112,7 +112,7 @@
 },{
   "projectName": "I Can't Drive This Thing!",
   "top": "",
-  "img": "img/ProjectClips/I Can't Drive This Thing.jpeg",
+  "img": "img/Website/ProjectThumbnails/I Can't Drive This Thing.jpeg",
   "genre": "",
   "purpose": "GMTK Game Jam 2020",
   "achievement": "Ranked 3414/ 5317",
@@ -123,7 +123,7 @@
 },{
   "projectName": "Scavenge Repair Survive",
   "top": "",
-  "img": "img/ProjectClips/SRS.gif",
+  "img": "img/Website/ProjectThumbnails/SRS.gif",
   "genre": "",
   "purpose": "Global Game Jam 2020",
   "achievement": "First game made with Unity and first game jam",
