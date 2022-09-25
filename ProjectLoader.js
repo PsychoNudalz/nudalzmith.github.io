@@ -101,8 +101,10 @@ function renderHTML2_TopProjects(data) {
 }
 
 
-function ConvertDescription(text){
-    text= text.replaceAll("\n","</p><p>")
-    text = text.replaceAll("\n","")
+function ConvertDescription(text) {
+    text = text.replaceAll("\\n\n", "</p><p>")
+    text = text.replaceAll("\n", "</p><p>")
+    text = text.replaceAll("\n", "")
+    text = text.replaceAll("\\n", "")
     return text
 }
