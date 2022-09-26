@@ -11,6 +11,28 @@
   "youtubeLink": "https://www.youtube.com/watch?v=YRdSxWEisD8",
   "htmlLink": "ProjectPages/MoA.html"
 },{
+  "projectName": "Fellowship",
+  "top": "y",
+  "img": "img/Website/ProjectThumbnails/Fellowship.png",
+  "genre": "3D Puzzle Game",
+  "purpose": "Brackeys 2022.2",
+  "achievement": "Ranked 126/ 1000 in Game Design",
+  "description": "A dungeon puzzle game with PS1-styled low poly graphics, developed for the Brackeys 2022.2 game jam with the theme of \u201cyou are not alone\u201d.  The player controls 3 different characters trapped in a dungeon and must utilise each of their unique skills to solve the puzzle and escape the room.",
+  "itchLink": "https://itch.io/jam/brackeys-8/rate/1680299",
+  "youtubeLink": "https://youtu.be/Pwl2vzERcWg",
+  "htmlLink": ""
+},{
+  "projectName": "3. Holiday Dream (Prototype)",
+  "top": "",
+  "img": "img/Website/ProjectThumbnails/HolidayDream.png",
+  "genre": "Walking Sim",
+  "purpose": "PolyCam to Unity Enviorment",
+  "achievement": "",
+  "description": "A walking simulator prototype was developed during the summer of 2022.  The idea was to create an environment out of 3D scans I took using the app PolyCam while on holiday.  The models are then decimated and a pulsation shader is applied to them.",
+  "itchLink": "https://nudalzmith.itch.io/holiday-dream",
+  "youtubeLink": "https://www.youtube.com/watch?v=AI6mQpKVn28",
+  "htmlLink": ""
+},{
   "projectName": "Di-Jumper",
   "top": "",
   "img": "img/Website/ProjectThumbnails/Di-Jumper.png",
