@@ -49,8 +49,8 @@ function renderHTML_Projects(data) {
     let i;
     console.log(data.length)
     for (i = 0; i < data.length; i++) {
-        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6 col-xl-4\' ><div class=\"row project-entry   \">" +
-            "<a target='_blank' class='' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
+        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6 col-xl-4\' ><div class=\"row project-entry container-fluid  \">" +
+            "<a target='_blank' class='align-middle text-center col-12 p-0' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
             FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
             "<h3>"+ ConvertAchievement(data[i].achievement)+"</h3>"+
@@ -82,8 +82,8 @@ function renderHTML2_TopProjects(data) {
     for (i = 0; i < data.length; i++) {
         if (data[i].top != "") {
 
-            htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry   \">" +
-                "<a target='_blank' class='' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
+            htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry container-fluid  \">" +
+                "<a target='_blank' class='align-middle text-center col-12' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
                 FancyBoxImg(data[i].img, data[i].youtubeLink) +
                 "<h1>" + data[i].genre + "</h1>" +
                 "<hr>" +
@@ -120,7 +120,7 @@ function ConvertAchievement(text) {
 }
 
 function FancyBoxImg(img, link) {
-    return "<a class='fancybox fancybox.iframe' data-fancybox=\'gallery\'href=\"" + link + "\">" + "<img src=\"" + img + "\"></img></a>"
+    return "<a class='fancybox fancybox.iframe align-middle text-center col-12 p-0' data-fancybox=\'gallery\'href=\"" + link + "\">" + "<img class='align-middle text-center' src=\"" + img + "\"></img></a>"
 
 }
 
