@@ -12,6 +12,18 @@
       "htmlLink": "ProjectPages/MoA.html"
     },
     {
+      "projectName": "Cat-O-Tonic",
+      "top": "y",
+      "img": "img/Website/ProjectThumbnails/CatOTonic.png",
+      "genre": "Third Person Destruction Game",
+      "purpose": "MA Game Design - Collaboration Unit",
+      "achievement": "Final Score: A-",
+      "description": "Developed as a group of 6 as part of the Collaboration Unit for my MA Game Design course.  It is a 3D person destruction game, where you play as a giant cat moving around the city and causing mayhem and destruction.",
+      "itchLink": "https://nudalzmith.itch.io/cat-o-tonic",
+      "youtubeLink": "https://www.youtube.com/watch?v=Psdyll4puko",
+      "htmlLink": "https://www.youtube.com/watch?v=Psdyll4puko"
+    },
+    {
       "projectName": "Po-Te-Tows",
       "img": "img/Website/ProjectClips/Po-Te-Tow.jpg",
       "genre": "First Person Adventure Puzzle Game",
