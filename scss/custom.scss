@@ -282,6 +282,18 @@ figure {
   margin-right: 5%;
 }
 
+.project-entry-zone-skills ul{
+  text-align: left;
+  align-content: center;
+}.project-entry-zone-skills li{
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+.project-entry-zone-skills h3{
+  margin-bottom: .1rem;
+  margin-top: 1rem;
+}
+
 .project-entry {
   border: 2px solid $orange !important;
   border-radius: 16px;

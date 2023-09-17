@@ -31,7 +31,7 @@ function LoadTopProjects() {
     ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         //console.log(ourData.projects[1]);
-        console.log(renderHTML2_TopProjects(ourData.projects));
+        console.log(renderHTML_TopProjects(ourData.projects));
     };
     ourRequest.send();
 }
@@ -49,11 +49,17 @@ function renderHTML_Projects(data) {
     let i;
     console.log(data.length)
     for (i = 0; i < data.length; i++) {
-        htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6 col-xl-4\' ><div class=\"row project-entry container-fluid  \">" +
+        htmlString += "<li class=\'col-sm-12 col-md-6 col-xl-4\' ><div class=\"row project-entry container-fluid  \">" +
             "<a target='_blank' class='align-middle text-center col-12 p-0' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
             FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
-            "<h3>"+ ConvertAchievement(data[i].achievement)+"</h3>"+
+            "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>" +
+            "<div class='project-entry-zone-skills container-fluid  row'>" +
+            "<h3>" + "Developed Skills and Systems:" + "</h3>" +
+            "<div class='col-8  p-0'>" +
+            "<h3>" + ConvertSkills(data[i].skills) + "</h3>" +
+            "</div></div>" +
+            "<hr>" +
             "<p>" + ConvertDescription(data[i].description) + "</p>" +
 
             "</div></li>";
@@ -67,7 +73,7 @@ function renderHTML_Projects(data) {
     return htmlString;
 }
 
-function renderHTML2_TopProjects(data) {
+function renderHTML_TopProjects(data) {
     var htmlString = " <ul class=\"row project-entry-zone align-content-center\">";
 
     var projectContainer = document.getElementById("project-entry-zone");
@@ -82,14 +88,22 @@ function renderHTML2_TopProjects(data) {
     for (i = 0; i < data.length; i++) {
         if (data[i].top != "") {
 
-            htmlString += "<li class=\'col-sm-12 col-md-6 col-lg-6\' ><div class=\"row project-entry container-fluid  \">" +
+            htmlString += "<li class=\'col-sm-12 col-md-12 col-lg-6 col-xl-4\' ><div class=\"row project-entry container-fluid  \">" +
                 "<a target='_blank' class='align-middle text-center col-12' href=" + data[i].htmlLink + " >" + data[i].projectName + "</a>" +
                 FancyBoxImg(data[i].img, data[i].youtubeLink) +
                 "<h1>" + data[i].genre + "</h1>" +
                 "<hr>" +
                 "<h2>" + data[i].purpose + "</h2>" +
-                "<h3>"+ ConvertAchievement(data[i].achievement)+"</h3>"+
+                "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>" +
+                // "<hr>" +
 
+                "<div class='project-entry-zone-skills container-fluid align-items-center justify-content-center row'>" +
+                "<h3>" + "Developed Skills and Systems:" + "</h3>" +
+                "<div class='col-8 align-items-center justify-content-center p-0'>" +
+                "<h3>" + ConvertSkills(data[i].skills) + "</h3>" +
+                "</div></div>" +
+                "<hr>" +
+                "<p>" + ConvertDescription(data[i].description) + "</p>" +
                 "</div></li>";
         }
     }
@@ -117,6 +131,18 @@ function ConvertAchievement(text) {
     text = text.replaceAll("\\n", "</h3><h3>")
 
     return text
+}
+
+function ConvertSkills(text) {
+    var listSkills = text.split("/")
+    var returnText = "<ul '>\n"
+
+    for (let t in listSkills) {
+        returnText += "<li>" + listSkills[t] + "<\li>"
+    }
+
+    returnText += "</ul>\n"
+    return returnText;
 }
 
 function FancyBoxImg(img, link) {

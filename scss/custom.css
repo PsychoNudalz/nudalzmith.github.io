@@ -9710,6 +9710,21 @@ figure {
   margin-right: 5%;
 }
 
+.project-entry-zone-skills ul {
+  text-align: left;
+  align-content: center;
+}
+
+.project-entry-zone-skills li {
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+.project-entry-zone-skills h3 {
+  margin-bottom: 0.1rem;
+  margin-top: 1rem;
+}
+
 .project-entry {
   border: 2px solid #FF6D13 !important;
   border-radius: 16px;
