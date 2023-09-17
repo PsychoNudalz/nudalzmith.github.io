@@ -9613,32 +9613,6 @@ figure {
   will-change: transform;
 }
 
-.carousel-inner img {
-  width: 100%;
-  height: auto;
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel-caption h1 {
-  font-size: 400%;
-  text-transform: uppercase;
-}
-
-.carousel-caption h2 {
-  font-size: 200%;
-  font-weight: 500;
-}
-
-.carousel-caption h3 {
-  font-size: 150%;
-  font-weight: 500;
-}
-
 .about-me img {
   width: 100%;
   height: auto;
@@ -9956,6 +9930,27 @@ figure {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+  }
+  .carousel-caption h2 {
+    font-size: 200%;
+    font-weight: 500;
+  }
+  .carousel-caption h3 {
+    font-size: 150%;
+    font-weight: 500;
+  }
 }
 @media (min-width: 768px) {
   .btn-responsive {
@@ -9971,6 +9966,12 @@ figure {
   }
   .project-deep-dive-progress-iframe {
     width: 80%;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
   }
 }
 @media (min-width: 1200px) {
