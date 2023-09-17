@@ -11,6 +11,7 @@ $theme-colors: (
 
 
 $itch: (#dd4a4a);
+$youtube: (#FF0000);
 $primary: (#222222);
 $dark-orange: (#be4a00);
 $orange: (#FF6D13);
@@ -77,8 +78,21 @@ hr {
 
 }
 
+.carousel-buttons{
+  padding: .5rem !important;
+}
+
 .btn-outline-orange:hover {
   background-color: $orange;
+  color: white;
+}
+
+.btn-outline-youtube{
+  color: $youtube;
+  border-color: $youtube;
+}
+.btn-outline-youtube:hover {
+  background-color: $youtube;
   color: white;
 }
 
@@ -89,6 +103,9 @@ hr {
 
 .btn-outline-itch:hover {
   background-color: $itch;
+  color: white;
+}
+.btn-outline-itch:hover i {
   color: white;
 }
 
@@ -174,9 +191,6 @@ figure {
 }
 
 
-
-
-
 .display-2 {
 
 }
@@ -186,7 +200,6 @@ figure {
   width: 100%;
   height: auto;
 }
-
 
 
 .latest-project img {
@@ -237,8 +250,6 @@ figure {
 
 .fa-itch-io {
   content: url('https://api.iconify.design/fa-brands/itch-io.svg?color=%23dd4a4a');
-
-  color: $itch;
 }
 
 .fa-itch-io:hover {
@@ -379,6 +390,7 @@ figure {
   margin-right: auto;
 
 }
+
 .project-deep-dive-progress {
   padding-left: 10%;
   padding-right: 10%;
@@ -421,6 +433,7 @@ figure {
   text-shadow: 0px 0px 20px $orange;
   margin-bottom: 2rem;
 }
+
 .project-deep-dive-progress li {
   color: $orange;
   text-shadow: 0px 0px 20px $orange;
@@ -539,7 +552,7 @@ figure {
 
   .carousel-inner img {
     width: 100%;
-    height:auto;
+    height: auto;
     //object-fit: cover;
     //object-position: 100% 0;
   }
@@ -547,12 +560,15 @@ figure {
   .carousel-caption {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
+  }
+  .carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    padding-bottom: .3rem;
+
   }
 
-
   .carousel-caption h1 {
-    font-size: 400%;
+    font-size: 300%;
     text-transform: uppercase;
 
 
@@ -575,7 +591,18 @@ figure {
   .btn-responsive {
     font-size: 90%;
   }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .carousel-caption h1 {
+    font-size: 400%;
+  }
 
+  .carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    padding-bottom: 1rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -590,7 +617,7 @@ figure {
   }
   .carousel-inner img {
     width: 100%;
-    height:auto;
+    height: auto;
     max-height: 600px;
 
     object-fit: cover;
