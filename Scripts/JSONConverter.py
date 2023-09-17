@@ -42,9 +42,14 @@ def MakeCSV():
     # 
 
     print(jsonFilePath)
-    with open(jsonFilePath, encoding='windows-1252') as json_file:
-        data = json.load(json_file)
+    try:
+        with open(jsonFilePath,"r", encoding='windows-1252') as json_file:
+            data = json.load(json_file)
 
+    except:
+        with open(jsonFilePath, encoding='utf-8') as json_file:
+            data = json.load(json_file)
+            
     print(data)
 
     employee_data = data[projectJSONTitle]
@@ -67,8 +72,9 @@ def MakeCSV():
             count += 1
 
         # Writing data of CSV file
+        print(emp.values())
         csv_writer.writerow(emp.values())
-
+        
     data_file.close()
 
 
@@ -98,7 +104,7 @@ def MakeJSON():
                 count += 1
 
     dataString = dataString[:-1]
-    finalData = "{ \"projects\": [\n"+dataString+"\n]}"
+    finalData = "{ \"projects\": [\n" + dataString + "\n]}"
 
     print(finalData)
     # Open a json writer, and use the json.dumps()
@@ -107,4 +113,11 @@ def MakeJSON():
         jsonf.write(finalData)
 
 
-# MakeCSV()
+userInput = "";
+while userInput != "x":
+    userInput = input("Input: ")
+    userInput.lower()
+    if (userInput == "c"):
+        MakeCSV()
+    if (userInput == "j"):
+        MakeJSON()

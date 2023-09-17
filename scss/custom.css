@@ -9480,6 +9480,14 @@ p {
   color: #f8f9fa;
 }
 
+ul {
+  color: #fff;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
 h1, h2, h3, h4, h5 {
   color: #FF6D13;
   text-shadow: 0px 0px 20px #FF6D13;
