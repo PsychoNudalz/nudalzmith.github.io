@@ -1,12 +1,25 @@
 { "projects": [
 {
+  "projectName": "The VARIABLE",
+  "top": "y",
+  "img": "img/Website/ProjectThumbnails/The Variable Thumbnail.png",
+  "genre": "Stealth Puzzle Game",
+  "purpose": "MA Game Design - Final Major Project",
+  "achievement": "Final Score: A-",
+  "skills": "AI Logic: Behaviour Trees/Stealth Game Design",
+  "description": "A stealth game where you infiltrate the simulation as the variable.  Your objective is to eliminate the VIP without being spotted and get out.  You can interact with the world by controlling different cameras and hacking objects in the environment..",
+  "detailPage": "https://www.youtube.com/watch?v=YARKVXuxP4M",
+  "itchLink": "https://nudalzmith.itch.io/the-variable",
+  "youtubeLink": "https://www.youtube.com/watch?v=YARKVXuxP4M",
+  "htmlLink": "https://www.youtube.com/watch?v=YARKVXuxP4M"
+},{
   "projectName": "Master of Arms 1.0+2.0",
   "top": "y",
   "img": "img/Website/ProjectThumbnails/MoA.jpg",
   "genre": "Rogue Lite First Person Looter Shooter",
   "purpose": "Year 2 Game Design and Development Coursework 2/3 & Final Year Project",
   "achievement": "Final Score: 80%\n",
-  "skills": "Random Weapon Generation/Shooting System/AI (State Machine) System",
+  "skills": "Random Weapon Generation/Shooting System/AI Logic: State Machine ",
   "description": " A rogue-lite first-person looter shooter, inspired by DOOM Eternal, Borderlands and Hades originally.  Originally developed by a team of 5 developers for 5 months and continued by myself for my final year project.",
   "detailPage": "ProjectPages/MoA.html",
   "itchLink": "https://nudalzmith.itch.io/master-of-arms",
@@ -25,6 +38,19 @@
   "itchLink": "https://nudalzmith.itch.io/din",
   "youtubeLink": "https://www.youtube.com/watch?v=WbbhE1MKLI8",
   "htmlLink": "https://www.youtube.com/watch?v=WbbhE1MKLI8"
+},{
+  "projectName": "Greasy Vegetables",
+  "top": "",
+  "img": "img/Website/ProjectThumbnails/Greasy Vegetables.png",
+  "genre": "",
+  "purpose": "Global Game Jam 2024",
+  "achievement": "",
+  "skills": "Quest VR/ Roto VR Chair",
+  "description": "It is a VR game where the player will need to cook and serve food to customers before they lose their patience.  When they do, they would spin the player to face them to get their attention.  This is done with the Roto VR Chair.",
+  "detailPage": "https://www.youtube.com/watch?v=6H1yjDE3w4Q",
+  "itchLink": "https://globalgamejam.org/games/2024/placeholder-roto-vr-2",
+  "youtubeLink": "https://www.youtube.com/watch?v=6H1yjDE3w4Q",
+  "htmlLink": "https://www.youtube.com/watch?v=6H1yjDE3w4Q"
 },{
   "projectName": "Cat-O-Tonic",
   "top": "y",
