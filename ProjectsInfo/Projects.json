@@ -1,5 +1,18 @@
 { "projects": [
-{
+  {
+    "projectName": "CAT-A-STROPHIC",
+    "top": "y",
+    "img": "img/Website/ProjectThumbnails/Cat_Thumbnail.gif",
+    "genre": "Comfy Rogue-lite City Destruction",
+    "purpose": "Current Purr Point Productions Project",
+    "achievement": "Tranzfuser Finalist",
+    "skills": "Business Strategy & Management/Talent Management/Pitching/Unreal Programming",
+    "description": "A stylised 3D sandbox destruction game, where you play as a giant kaiju cat, rampaging across the city to cause maximum destruction to save her baby kittens!",
+    "detailPage": "https://purrpointproductions.itch.io/cat-a-strophic",
+    "itchLink": "https://purrpointproductions.itch.io/cat-a-strophic",
+    "youtubeLink": "https://www.youtube.com/watch?v=QWU70EWxWxI",
+    "htmlLink": "https://purrpointproductions.itch.io/cat-a-strophic"
+  },{
   "projectName": "The VARIABLE",
   "top": "y",
   "img": "img/Website/ProjectThumbnails/The Variable Thumbnail.png",
@@ -7,7 +20,7 @@
   "purpose": "MA Game Design - Final Major Project",
   "achievement": "Final Score: A-",
   "skills": "AI Logic: Behaviour Trees/Stealth Game Design",
-  "description": "A stealth game where you infiltrate the simulation as the variable.  Your objective is to eliminate the VIP without being spotted and get out.  You can interact with the world by controlling different cameras and hacking objects in the environment..",
+  "description": "A stealth game where you infiltrate the simulation as the variable.  Your objective is to eliminate the VIP without being spotted and get out.  You can interact with the world by controlling different cameras and hacking objects in the environment.",
   "detailPage": "https://www.youtube.com/watch?v=YARKVXuxP4M",
   "itchLink": "https://nudalzmith.itch.io/the-variable",
   "youtubeLink": "https://www.youtube.com/watch?v=YARKVXuxP4M",
@@ -27,7 +40,7 @@
   "htmlLink": "ProjectPages/MoA.html"
 },{
   "projectName": "Diving in the Darkness (Unreal)",
-  "top": "y",
+  "top": "",
   "img": "img/Website/ProjectThumbnails/DivingInTheDarkness_Thumbnail.png",
   "genre": "First Person Horror Game",
   "purpose": "Uni Jam 2023, Brackeys Game Jam 2023.2",
@@ -53,7 +66,7 @@
   "htmlLink": "https://www.youtube.com/watch?v=6H1yjDE3w4Q"
 },{
   "projectName": "Cat-O-Tonic",
-  "top": "y",
+  "top": "",
   "img": "img/Website/ProjectThumbnails/CatOTonic.png",
   "genre": "Third Person Destruction Game",
   "purpose": "MA Game Design - Collaboration Unit",
