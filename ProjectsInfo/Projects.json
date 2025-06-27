@@ -1,18 +1,18 @@
 { "projects": [
-  {
-    "projectName": "CAT-A-STROPHIC",
-    "top": "y",
-    "img": "img/Website/ProjectThumbnails/Cat_Thumbnail.gif",
-    "genre": "Comfy Rogue-lite City Destruction",
-    "purpose": "Current Purr Point Productions Project",
-    "achievement": "Tranzfuser Finalist",
-    "skills": "Business Strategy & Management/Talent Management/Pitching/Unreal Programming",
-    "description": "A stylised 3D sandbox destruction game, where you play as a giant kaiju cat, rampaging across the city to cause maximum destruction to save her baby kittens!",
-    "detailPage": "https://purrpointproductions.itch.io/cat-a-strophic",
-    "itchLink": "https://purrpointproductions.itch.io/cat-a-strophic",
-    "youtubeLink": "https://www.youtube.com/watch?v=QWU70EWxWxI",
-    "htmlLink": "https://purrpointproductions.itch.io/cat-a-strophic"
-  },{
+{
+  "projectName": "CAT-A-STROPHIC",
+  "top": "y",
+  "img": "img/Website/ProjectThumbnails/Cat_Thumbnail.gif",
+  "genre": "Action Rogue-lite City Destruction",
+  "purpose": "Purr Point Productions Project",
+  "achievement": "Tranzfuser Finalist",
+  "skills": "Business Strategy & Management/Finance Management/Business Development/Unreal Programming",
+  "description": "A stylised 3D sandbox destruction game, where you play as a giant kaiju cat, rampaging across the city to cause maximum destruction to save her baby kittens!",
+  "detailPage": "https://purrpointproductions.itch.io/cat-a-strophic",
+  "itchLink": "https://purrpointproductions.itch.io/cat-a-strophic",
+  "youtubeLink": "https://www.youtube.com/watch?v=QWU70EWxWxI",
+  "htmlLink": "https://purrpointproductions.itch.io/cat-a-strophic"
+},{
   "projectName": "The VARIABLE",
   "top": "y",
   "img": "img/Website/ProjectThumbnails/The Variable Thumbnail.png",

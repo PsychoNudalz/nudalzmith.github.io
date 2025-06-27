@@ -1,3 +1,4 @@
+
 # import pandas as pd
 # from openpyxl.workbook import Workbook
 # 
@@ -113,9 +114,9 @@ def MakeJSON():
         jsonf.write(finalData)
 
 
-userInput = "";
+userInput = ""
 while userInput != "x":
-    userInput = input("Input: ")
+    userInput = input("Input (C->CSV, J->JSON, X->EXIT: ")
     userInput.lower()
     if (userInput == "c"):
         MakeCSV()
