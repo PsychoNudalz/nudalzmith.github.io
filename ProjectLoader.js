@@ -54,10 +54,11 @@ function renderHTML_Projects(data) {
             FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
             "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>" +
+
             "<div class='project-entry-zone-skills container-fluid  row'>" +
             "<h3>" + "Developed Skills and Systems:" + "</h3>" +
-            "<div class='col-8  p-0'>" +
-            "<h3>" + ConvertSkills(data[i].skills) + "</h3>" +
+            "<div class='col-11 align-items-center justify-content-center p-0'>" +
+            "<h3 class='text-center '>" + ConvertSkills(data[i].skills) + "</h3>" +
             "</div></div>" +
             "<hr>" +
             "<p>" + ConvertDescription(data[i].description) + "</p>" +
@@ -99,8 +100,8 @@ function renderHTML_TopProjects(data) {
 
                 "<div class='project-entry-zone-skills container-fluid align-items-center justify-content-center row'>" +
                 "<h3>" + "Developed Skills and Systems:" + "</h3>" +
-                "<div class='col-8 align-items-center justify-content-center p-0'>" +
-                "<h3>" + ConvertSkills(data[i].skills) + "</h3>" +
+                "<div class='col-11 align-items-center justify-content-center p-0'>" +
+                "<h3 class='text-center'>" + ConvertSkills(data[i].skills) + "</h3>" +
                 "</div></div>" +
                 "<hr>" +
                 "<p>" + ConvertDescription(data[i].description) + "</p>" +
