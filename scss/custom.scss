@@ -83,7 +83,8 @@ hr {
   color: #ffffff;
   text-shadow: 0px 0px 20px $dark-orange;
   padding-bottom: 1rem;
-
+  //align-items: flex-end;
+  //position: absolute;
 }
 
 .carousel-buttons {
@@ -577,13 +578,13 @@ figure {
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 1px) {
   .btn-responsive {
     font-size: 60%;
   }
   .about-me {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 
@@ -595,12 +596,11 @@ figure {
   //}
 
     .carousel-inner img {
-    width: 100%;
+    width: 130%;
     height: auto;
     max-height: 600px;
-
     object-fit: cover;
-    //object-position: 100% 0;
+    object-position: center;
   }
   .carousel-caption {
     position: absolute;
@@ -613,25 +613,37 @@ figure {
   }
 
   .carousel-caption h1 {
-    font-size: 300%;
+    font-size: 200%;
     text-transform: uppercase;
 
 
   }
 
   .carousel-caption h2 {
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 500;
 
   }
 
   .carousel-caption h3 {
-    font-size: 150%;
+    font-size: 100%;
     font-weight: 500;
 
   }
-}
 
+  .carousel-buttons button {
+    font-size: .9rem;
+
+
+  }
+}
+@media (min-width: 560px) {
+
+  .carousel-inner img {
+    width: 100%;
+  }
+
+}
 @media (min-width: 768px) {
   .btn-responsive {
     font-size: 90%;
@@ -642,11 +654,15 @@ figure {
     transform: translateY(-50%);
   }
   .carousel-caption h1 {
-    font-size: 400%;
+    font-size: 300%;
   }
 
   .carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
+  }
+  .carousel-buttons button {
+    font-size: 1rem;
+
   }
 }
 
@@ -668,6 +684,33 @@ figure {
     object-fit: cover;
     //object-position: 100% 0;
   }
+
+  .carousel-caption h1 {
+    font-size: 500%;
+    text-transform: uppercase;
+
+
+  }
+
+  .carousel-caption h2 {
+    font-size: 200%;
+    font-weight: 500;
+
+  }
+
+  .carousel-caption h3 {
+    font-size: 150%;
+    font-weight: 500;
+
+  }
+
+  .carousel-caption h1, .carousel-caption h2, .carousel-caption h3 {
+    padding-bottom: 1rem;
+  }
+  .carousel-buttons button {
+    font-size: 1.25rem;
+
+  }
 }
 
 @media (min-width: 1200px) {
@@ -677,13 +720,10 @@ figure {
   .project-deep-dive-progress-iframe {
     width: 70%;
   }
+
   .about-me {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  .about-me {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 13%;
+    margin-right: 13%;
   }
 }
 
