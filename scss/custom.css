@@ -9793,6 +9793,16 @@ figure {
   padding-right: 10%;
 }
 
+.project-AI p {
+  text-align: justify !important;
+  text-align-last: center !important;
+}
+
+.project-AI-summary p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .team-members ul {
   list-style-type: none;
 }

@@ -53,14 +53,19 @@ function renderHTML_Projects(data) {
             "<a target='_blank' class='align-middle text-center col-12 p-0' href=" + data[i].itchLink + " >" + data[i].projectName + "</a>" +
             FancyBoxImg(data[i].img, data[i].youtubeLink) +
             "<h2>" + data[i].purpose + "</h2>" +
-            "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>" +
+            "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>";
 
-            "<div class='project-entry-zone-skills container-fluid  row'>" +
-            "<h3>" + "Developed Skills and Systems:" + "</h3>" +
-            "<div class='col-11 align-items-center justify-content-center p-0'>" +
-            "<h3 class='text-center '>" + ConvertSkills(data[i].skills) + "</h3>" +
-            "</div></div>" +
-            "<hr>" +
+        if (data[i].skills.length > 0) {
+
+            htmlString += "<div class='project-entry-zone-skills container-fluid  row'>" +
+                "<h3>" + "Developed Skills and Systems:" + "</h3>" +
+                "<div class='col-11 align-items-center justify-content-center p-0'>" +
+                "<h3 class='text-center '>" + ConvertSkills(data[i].skills) + "</h3>" +
+                "</div>" + "</div>" +
+                "";
+        }
+
+        htmlString += "<hr>" +
             "<p>" + ConvertDescription(data[i].description) + "</p>" +
 
             "</div></li>";
@@ -95,14 +100,19 @@ function renderHTML_TopProjects(data) {
                 "<h1>" + data[i].genre + "</h1>" +
                 "<hr>" +
                 "<h2>" + data[i].purpose + "</h2>" +
-                "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>" +
-                // "<hr>" +
+                "<h3>" + ConvertAchievement(data[i].achievement) + "</h3>";
 
-                "<div class='project-entry-zone-skills container-fluid align-items-center justify-content-center row'>" +
-                "<h3>" + "Developed Skills and Systems:" + "</h3>" +
-                "<div class='col-11 align-items-center justify-content-center p-0'>" +
-                "<h3 class='text-center'>" + ConvertSkills(data[i].skills) + "</h3>" +
-                "</div></div>" +
+            if (data[i].skills.length > 0) {
+
+                htmlString += "<hr>" +"<div class='project-entry-zone-skills container-fluid align-items-center justify-content-center row'>" +
+                    "<h3>" + "Developed Skills and Systems:" + "</h3>" +
+                    "<div class='col-11 align-items-center justify-content-center p-0'>" +
+                    "<h3 class='text-center '>" + ConvertSkills(data[i].skills) + "</h3>" +
+                    "</div>" + "</div>" +
+                    "";
+            }
+
+            htmlString +=
                 "<hr>" +
                 "<p>" + ConvertDescription(data[i].description) + "</p>" +
                 "</div></li>";

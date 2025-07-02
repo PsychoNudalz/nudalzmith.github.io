@@ -5,7 +5,7 @@
   "img": "img/Website/ProjectThumbnails/Cat_Thumbnail.gif",
   "genre": "Action Rogue-lite City Destruction",
   "purpose": "Purr Point Productions Project",
-  "achievement": "Tranzfuser Finalist",
+  "achievement": "Funded By UK Games Fund",
   "skills": "Business Strategy & Management/Finance Management/Business Development/Unreal Programming",
   "description": "A stylised 3D sandbox destruction game, where you play as a giant kaiju cat, rampaging across the city to cause maximum destruction to save her baby kittens!",
   "detailPage": "https://purrpointproductions.itch.io/cat-a-strophic",
@@ -26,6 +26,19 @@
   "youtubeLink": "https://www.youtube.com/watch?v=YARKVXuxP4M",
   "htmlLink": "https://www.youtube.com/watch?v=YARKVXuxP4M"
 },{
+  "projectName": "Games AI Thesis",
+  "top": "",
+  "img": "img/Website/ProjectThumbnails/GamesAI.jpg",
+  "genre": "Essay",
+  "purpose": "MA Game Design - Thesis",
+  "achievement": "Final Score: A-",
+  "skills": "",
+  "description": "This paper will explore how AI is used in video games, specifically in the stealth assassination genre. The goal is to identify behaviours of a Good Game AI that would adapt to act smart (intelligent), more human-like (Intuitive), and act as a living character (immersive) while being challenging and fun to the player.",
+  "detailPage": "https://drive.google.com/file/d/1nApJsrpRzT3-5-wK7MC7lCH3SsvP5PuZ/view?usp=sharing",
+  "itchLink": "https://drive.google.com/file/d/1nApJsrpRzT3-5-wK7MC7lCH3SsvP5PuZ/view?usp=sharing",
+  "youtubeLink": "",
+  "htmlLink": "https://drive.google.com/file/d/1nApJsrpRzT3-5-wK7MC7lCH3SsvP5PuZ/view?usp=sharing"
+},{
   "projectName": "Master of Arms 1.0+2.0",
   "top": "y",
   "img": "img/Website/ProjectThumbnails/MoA.jpg",
@@ -38,6 +51,19 @@
   "itchLink": "https://nudalzmith.itch.io/master-of-arms",
   "youtubeLink": "https://www.youtube.com/watch?v=YRdSxWEisD8",
   "htmlLink": "ProjectPages/MoA.html"
+},{
+  "projectName": "Factorio Essay",
+  "top": "",
+  "img": "img/Website/ProjectThumbnails/FactorioEssay.jpg",
+  "genre": "",
+  "purpose": "MA Game Design - Essay",
+  "achievement": "Final Score: A-",
+  "skills": "",
+  "description": "THE FACTORY MUST GROW.\nThis concept is similar to Computer Science and programming software as it also revolves around problem-solving. Since Factorio is made by programers and shares characteristics with programming, this paper will explore how similar they are.",
+  "detailPage": "https://drive.google.com/file/d/1pJjzUja6ynJQ2Ffp8PqeZlVD26xBZSpz/view?usp=sharing",
+  "itchLink": "https://drive.google.com/file/d/1pJjzUja6ynJQ2Ffp8PqeZlVD26xBZSpz/view?usp=sharing",
+  "youtubeLink": "",
+  "htmlLink": "https://drive.google.com/file/d/1pJjzUja6ynJQ2Ffp8PqeZlVD26xBZSpz/view?usp=sharing"
 },{
   "projectName": "Diving in the Darkness (Unreal)",
   "top": "",

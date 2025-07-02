@@ -116,7 +116,7 @@ def MakeJSON():
 
 userInput = ""
 while userInput != "x":
-    userInput = input("Input (C->CSV, J->JSON, X->EXIT: ")
+    userInput = input("Input Make: (C->CSV, J->JSON, X->EXIT) ")
     userInput.lower()
     if (userInput == "c"):
         MakeCSV()
